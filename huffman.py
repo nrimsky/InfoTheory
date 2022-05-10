@@ -51,8 +51,8 @@ def encode(data):
     root_node = heapq.heappop(nodes).item
     codes = get_codes(root_node)
     encoded = "".join([codes[c] for c in data])
-    return encoded, root_node
+    return encoded, codes
 
 
 if __name__ == "__main__":
-    print(encode("streets are stone stars are not"))
+    print(encode("AAAAABBBBBCCCCDDDEEE"))
