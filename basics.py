@@ -11,7 +11,7 @@ def log(inp: np.array) -> np.array:
 
 def div(inp1: np.array, inp2: np.array) -> np.array:
     """
-    :param inp1: numberator
+    :param inp1: numerator
     :param inp2: array to log
     :return: inp1 / inp2
     """
